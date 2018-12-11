@@ -1,0 +1,4 @@
+defaults: &defaults
+
+  SERVICE_ADDRESS: <%= ENV['KAFKA_SERVICE_ADDRESS'] || '10.101.5.118:9092' %>
+  GROUP_ID: <%= ENV['KAFKA_GROUP_ID'] || 1 %>
